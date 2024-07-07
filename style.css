@@ -1,0 +1,162 @@
+body{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+    background: coral;
+    color: azure;
+}
+
+
+
+@media screen and (orientation: landscape) {
+    #container {
+        display: inline-flex;
+    }
+
+    #email {
+        color: rgb(18, 19, 19);
+        font-size: 23px;
+        font-weight: 800;
+    }
+
+    #sub {
+        text-align: center;
+        padding-right: 20px;
+        margin-right: 20px;
+        min-width: 300px;
+    }
+
+    .goal_section{
+        padding: 20px;
+        margin: 10px;
+        text-align: justify;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(53, 51, 51);
+        max-height: fit-content;
+        max-width: 400px;
+        min-width: 300px;
+        background-color: rgba(205, 202, 202, .8);
+        border-left-width: 22px;
+        padding-bottom: 11px;
+        box-shadow: 6px 6px 5px gray; /* 5 pixel blur */
+    }
+
+    #clock {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: black;
+        color: rgb(37, 133, 133);
+        font-size: 40px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-radius: 4px;
+        margin: 0px;
+        border: 0px;
+        margin-left: 33px;
+    }
+
+    .heading {
+    text-align: center;
+    color: rgb(252, 248, 248);
+    font-size: 44px;
+    padding: 23px;
+    margin: 0px;
+    border: 0px;
+    }
+    
+   }
+   @media screen and (orientation: portrait) {
+
+    .heading {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        text-shadow: -.3em -.3em rgba(72, 71, 71, .1);
+        border-bottom: 2px;
+        border-bottom-color: aqua;
+    }
+
+    
+    #email {
+        color: rgb(18, 19, 19);
+        font-size: 18px;
+        font-style: oblique;
+    }
+
+    #clock {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: black;
+        color: aqua;
+        font-size: 30px;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 4px;
+        margin-left: 33%;
+        margin-right: 33%;
+    }
+
+   }
+
+
+#fname {
+    color: rgb(253, 253, 253);
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+#day {
+    color: black;
+    padding: 15px;
+    font-size: 23px;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+
+#dres {
+    background-image: url("images/goal25_153.47pxX100px-01.png");
+    width: 100%;
+    visibility: visible;
+}
+
+
+
+
+.goal_section{
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53, 51, 51);
+    max-height: fit-content;
+    min-width: 200px;
+    background-color: rgba(205, 202, 202, .8);
+    border-left-width: 24px;
+    border-color: rgb(53, 51, 51);
+    padding-bottom: 11px;
+    box-shadow: 6px 6px 5px gray; /* 5 pixel blur */
+}
+
+.goal_section img {
+    opacity: 23;
+}
+
+
+
+
+#foot{
+    margin: 0px;
+    border: 0px;
+    background-color: black;
+    color: rgb(81, 78, 78);
+    font-size: 20px;
+    max-height: 100px;
+    min-height: 40px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
